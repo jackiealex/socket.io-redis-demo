@@ -1,0 +1,24 @@
+{
+  "name": "socket-io",
+  "version": "1.0.0",
+  "description": "test socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "test": "npm test"
+  },
+  "keywords": [
+    "socket",
+    "push",
+    "message"
+  ],
+  "author": "alex",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.5.0"
+  },
+  "dependencies": {
+    "redis": "^2.6.2"
+  }
+}
